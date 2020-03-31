@@ -1,3 +1,7 @@
+/*
+* Author Sanket
+*Login Action file
+*/
 import {ADD_USER_DETAILS,CHANGE_PASSWORD} from './types';
 
 
@@ -11,6 +15,7 @@ export const addUserDetails=(user_details)=>dispatch=>{
        }) 
 
 }
+
 export const changePassword=(user_details)=>dispatch=>{
     dispatch({
         type:CHANGE_PASSWORD,
